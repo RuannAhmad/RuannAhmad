@@ -113,7 +113,7 @@ fetch('https://geo-mapper.github.io/geo-mapper/gmeveningroute.geojson')
 
 
 // Load the GeoJSON polygon file
-fetch('https://geo-mapper.github.io/geo-mapper/gmbuildings.geojson')
+fetch('https://geo-mapper.github.io/geo-mapper/gmmorningroutebuildings.geojson')
 .then(response => response.json())
 .then(geojson => {
     // Customize the style of the polygon
