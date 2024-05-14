@@ -71,7 +71,7 @@ fetch('https://geo-mapper.github.io/geo-mapper/gmdaytimeroute.geojson')
 
 
     // Load the GeoJSON line file
-fetch('https://aurashktest.github.io/aurashktest/akeveningroute.geojson')
+fetch('https://geo-mapper.github.io/geo-mapper/gmeveningroute.geojson')
 .then(response => response.json())
 .then(geojson => {
     // Customize the style of the line
