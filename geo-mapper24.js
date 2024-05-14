@@ -50,7 +50,7 @@ ftgreeneparkmarker.bindPopup(`
 
 
 // Load the GeoJSON line file
-fetch('https://aurashktest.github.io/geo-mapper/gmdaytimeroute.geojson')
+fetch('https://geo-mapper.github.io/geo-mapper/gmdaytimeroute.geojson')
     .then(response => response.json())
     .then(geojson => {
         // Customize the style of the line
