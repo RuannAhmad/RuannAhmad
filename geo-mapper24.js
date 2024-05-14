@@ -11,7 +11,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 
 // Add a marker to the map for New York City
-var librarymarker = L.marker([-73.96812008180129, 40.67224035309829]).addTo(map);
+var librarymarker = L.marker([40.67224035309829, -73.96812008180129]).addTo(map);
 
 // Add a popup to the marker
 librarymarker.bindPopup(`
@@ -23,7 +23,7 @@ librarymarker.bindPopup(`
 
 
 // Add a marker to the map for New York City
-var prospectmarker = L.marker([-73.96955171319219, 40.661395018170026]).addTo(map);
+var prospectmarker = L.marker([40.661395018170026, -73.96955171319219]).addTo(map);
 
 
 // Add a popup to the marker
@@ -36,7 +36,7 @@ prospectmarker.bindPopup(`
 
 
 // Add a marker to the map for New York City
-var simpsonmarker = L.marker([-73.97363200871627, 40.68325565579792]).addTo(map);
+var simpsonmarker = L.marker([40.68325565579792, -73.97363200871627]).addTo(map);
 
 
 // Add a popup to the marker
@@ -45,7 +45,7 @@ simpsonmarker.bindPopup(`
     <img src="https://geo-mapper.github.io/geo-mapper/images/simpson.jpeg"  style="width: 100px; height: auto;">
 `).openPopup();
 
-var cuylermarker = L.marker([-73.9719183858434, 40.68565534495099]).addTo(map);
+var cuylermarker = L.marker([40.68565534495099, -73.9719183858434]).addTo(map);
 
 
 // Add a popup to the marker
@@ -55,7 +55,7 @@ cuylermarker.bindPopup(`
 `).openPopup();
 
 
-var museummarker = L.marker([-73.96351566802403, 40.67091523673895]).addTo(map);
+var museummarker = L.marker([40.67091523673895, -73.96351566802403]).addTo(map);
 
 
 // Add a popup to the marker
