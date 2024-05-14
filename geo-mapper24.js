@@ -11,41 +11,58 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 
 // Add a marker to the map for New York City
-var luigismarker = L.marker([40.68965691085725, -73.96537769031497]).addTo(map);
+var librarymarker = L.marker([-73.96812008180129, 40.67224035309829]).addTo(map);
 
 // Add a popup to the marker
-luigismarker.bindPopup(`
-    <b>Luigi's Pizza</b><br>Best pizza on Dekalb Ave<br>
-    <img src="https://aurashktest.github.io/aurashktest/images/luigis.png" style="width: 100px; height: auto;">
+librarymarker.bindPopup(`
+    <b>Brooklyn Public Library</b><br>The coolest library<br>
+    <img src="https://geo-mapper.github.io/geo-mapper/images/library.jpeg" style="width: 100px; height: auto;">
 `).openPopup();
 
 
 
 
 // Add a marker to the map for New York City
-var prattinstmarker = L.marker([40.69099831383163, -73.96332055134893]).addTo(map);
+var prospectmarker = L.marker([-73.96955171319219, 40.661395018170026]).addTo(map);
 
 
 // Add a popup to the marker
-prattinstmarker.bindPopup(`
-    <b>Pratt Institute</b><br>Sculpture Garden and green space <br>
-    <img src="https://aurashktest.github.io/aurashktest/images/pratt.jpg" style="width: 100px; height: auto;">
+prospectmarker.bindPopup(`
+    <b>Prospect Park</b><br>Have a relaxed walk with the best views <br>
+    <img src="https://geo-mapper.github.io/geo-mapper/images/prospect_park.jpeg" style="width: 100px; height: auto;">
 `).openPopup();
 
 
 
 
 // Add a marker to the map for New York City
-var ftgreeneparkmarker = L.marker([40.69271525220281, -73.97682542294763]).addTo(map);
+var simpsonmarker = L.marker([-73.97363200871627, 40.68325565579792]).addTo(map);
 
 
 // Add a popup to the marker
-ftgreeneparkmarker.bindPopup(`
-    <b>Ft Greene Park</b><br>Prison Ship Martrys Monument has good views of the city.<br>
-    <img src="https://aurashktest.github.io/aurashktest/images/psm.jpg"  style="width: 100px; height: auto;">
+simpsonmarker.bindPopup(`
+    <b>The Simpson Restaurant</b><br>best ambience Great music, great food, great vibes, great location, great service.<br>
+    <img src="https://geo-mapper.github.io/geo-mapper/images/simpson.jpeg"  style="width: 100px; height: auto;">
+`).openPopup();
+
+var cuylermarker = L.marker([-73.9719183858434, 40.68565534495099]).addTo(map);
+
+
+// Add a popup to the marker
+cuylermarker.bindPopup(`
+    <b>Cuyler Gore Park</b><br>best ambience aGreat music, great food, great vibes, great location, great service.<br>
+    <img src="https://geo-mapper.github.io/geo-mapper/images/cuyler.jpeg"  style="width: 100px; height: auto;">
 `).openPopup();
 
 
+var museummarker = L.marker([-73.96351566802403, 40.67091523673895]).addTo(map);
+
+
+// Add a popup to the marker
+museummarker.bindPopup(`
+    <b>Brooklyn Museum</b><br>The museum is New York City's second largest and contains an art collection with around 500,000 objects.<br>
+    <img src="https://geo-mapper.github.io/geo-mapper/images/museum.jpeg"  style="width: 100px; height: auto;">
+`).openPopup();
 
 
 
