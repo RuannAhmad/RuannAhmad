@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+
+header {
+    background-color: #ff0606;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff; 
+    font-size: 35px;
+    font-weight: bold; 
+     margin: 0px;
+  }
+
+
+ h2 {
+    color: #000000; 
+    font-size: 28px; 
+    font-weight: bold; 
+     margin: 0px;
+}
+
+#nymap {
+    height: 650px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.containertext {
+    padding: 10px;
+}
+
+.container {
+    width: 80%;
+    background-color: #fff;
+    padding: 10px 0px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+p {
+    line-height: 1.4;
+   
+}
+
+a {
+    color: #07325f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.leaflet-attribution-flag {
+display: inline !important;
+vertical-align: baseline !important;
+width: 0;
+height: 0;
+}
