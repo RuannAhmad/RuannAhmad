@@ -16,7 +16,7 @@ var librarymarker = L.marker([40.67224035309829, -73.96812008180129]).addTo(map)
 // Add a popup to the marker
 librarymarker.bindPopup(`
     <b>Brooklyn Public Library</b><br>The coolest library<br>
-    <img src="https://geo-mapper.github.io/geo-mapper/images/library.jpeg" style="width: 100px; height: auto;">
+    <img src="https://RuannAhmad.github.io/RuannAhmad/images/library.jpeg" style="width: 100px; height: auto;">
 `).openPopup();
 
 
@@ -29,7 +29,7 @@ var prospectmarker = L.marker([40.661395018170026, -73.96955171319219]).addTo(ma
 // Add a popup to the marker
 prospectmarker.bindPopup(`
     <b>Prospect Park</b><br>Have a relaxed walk with the best views <br>
-    <img src="https://geo-mapper.github.io/geo-mapper/images/prospect_park.jpeg" style="width: 100px; height: auto;">
+    <img src="https://RuannAhmad.github.io/RuannAhmad/images/prospect_park.jpeg" style="width: 100px; height: auto;">
 `).openPopup();
 
 
@@ -42,7 +42,7 @@ var simpsonmarker = L.marker([40.68325565579792, -73.97363200871627]).addTo(map)
 // Add a popup to the marker
 simpsonmarker.bindPopup(`
     <b>The Simpson Restaurant</b><br>best ambience Great music, great food, great vibes, great location, great service.<br>
-    <img src="https://geo-mapper.github.io/geo-mapper/images/simpson.jpeg"  style="width: 100px; height: auto;">
+    <img src="https://RuannAhmad.github.io/RuannAhmad/images/simpson.jpeg"  style="width: 100px; height: auto;">
 `).openPopup();
 
 var cuylermarker = L.marker([40.68565534495099, -73.9719183858434]).addTo(map);
@@ -51,7 +51,7 @@ var cuylermarker = L.marker([40.68565534495099, -73.9719183858434]).addTo(map);
 // Add a popup to the marker
 cuylermarker.bindPopup(`
     <b>Cuyler Gore Park</b><br>best ambience aGreat music, great food, great vibes, great location, great service.<br>
-    <img src="https://geo-mapper.github.io/geo-mapper/images/cuyler.jpeg"  style="width: 100px; height: auto;">
+    <img src="https://RuannAhmad.github.io/RuannAhmad/images/cuyler.jpeg"  style="width: 100px; height: auto;">
 `).openPopup();
 
 
@@ -61,13 +61,13 @@ var museummarker = L.marker([40.67091523673895, -73.96351566802403]).addTo(map);
 // Add a popup to the marker
 museummarker.bindPopup(`
     <b>Brooklyn Museum</b><br>The museum is New York City's second largest and contains an art collection with around 500,000 objects.<br>
-    <img src="https://geo-mapper.github.io/geo-mapper/images/museum.jpeg"  style="width: 100px; height: auto;">
+    <img src="https://RuannAhmad.github.io/RuannAhmad/images/museum.jpeg"  style="width: 100px; height: auto;">
 `).openPopup();
 
 
 
 // Load the GeoJSON line file
-fetch('https://geo-mapper.github.io/geo-mapper/gmdaytimeroute.geojson')
+fetch('https://RuannAhmad.github.io/RuannAhmad/rmdaytimeroute.geojson')
     .then(response => response.json())
     .then(geojson => {
         // Customize the style of the line
@@ -88,7 +88,7 @@ fetch('https://geo-mapper.github.io/geo-mapper/gmdaytimeroute.geojson')
 
 
     // Load the GeoJSON line file
-fetch('https://geo-mapper.github.io/geo-mapper/gmeveningroute.geojson')
+fetch('https://RuannAhmad.github.io/RuannAhmad/rmeveningroute.geojson')
 .then(response => response.json())
 .then(geojson => {
     // Customize the style of the line
@@ -113,7 +113,7 @@ fetch('https://geo-mapper.github.io/geo-mapper/gmeveningroute.geojson')
 
 
 // Load the GeoJSON polygon file
-fetch('https://geo-mapper.github.io/geo-mapper/gmmorningroutebuildings.geojson')
+fetch('https://RuannAhmad.github.io/RuannAhmad/rmmorningroutebuildings.geojson')
 .then(response => response.json())
 .then(geojson => {
     // Customize the style of the polygon
@@ -132,7 +132,7 @@ fetch('https://geo-mapper.github.io/geo-mapper/gmmorningroutebuildings.geojson')
 });
 
 
-fetch('https://geo-mapper.github.io/geo-mapper/gmeveningroutebuildings.geojson')
+fetch('https://RuannAhmad.github.io/RuannAhmad/rmeveningroutebuildings.geojson')
 .then(response => response.json())
 .then(geojson => {
     // Customize the style of the polygon
@@ -176,7 +176,7 @@ function getFeatureStyle(feature) {
 
 
 // Load the GeoJSON polygon file
-fetch('https://aurashktest.github.io/aurashktest/hev.geojson')
+fetch('https://RuannAhmad.github.io/RuannAhmad/hev.geojson')
 .then(response => response.json())
 .then(geojson => {
     // Add the GeoJSON polygons to the map with customized style
